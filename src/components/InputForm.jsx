@@ -1,4 +1,4 @@
-// src/components/InputForm.jsx
+
 import React from "react";
 import styles from "./InputForm.module.css";
 // import { ReactComponent as EyeIcon } from "../assets/eye.svg"; // optional, ignore if no svg
