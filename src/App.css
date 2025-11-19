@@ -1,0 +1,20 @@
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Add proper spacing from all screen edges */
+  padding: 60px 40px;
+
+  background: linear-gradient(180deg,#eef2ff,#f6f9ff);
+}
+
+.container {
+  width: 2000px;
+  max-width: 95%;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 25px 55px rgba(16,24,40,0.1);
+}

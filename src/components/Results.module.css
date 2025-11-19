@@ -1,0 +1,89 @@
+/* src/components/Results.module.css */
+.results {
+  margin-top: 18px;
+  padding: 18px 22px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(16,24,40,0.05);
+}
+
+.resultsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.resultsHeader h3 {
+  margin: 0;
+  color: #3b5cff;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.zodiac {
+  background: #ff6b6b;
+  color: white;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.stat {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 8px 18px rgba(16,24,40,0.04);
+  min-height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value {
+  color: #3b5cff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.label {
+  color: #8b8fa3;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.infoRow {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.infoCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 8px 18px rgba(16,24,40,0.04);
+  min-height: 68px;
+}
+
+.infoTitle {
+  color: #3b5cff;
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.infoText {
+  color: #6b6f82;
+  font-size: 13px;
+}

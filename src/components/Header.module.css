@@ -1,0 +1,27 @@
+/* src/components/Header.module.css */
+.header {
+  border-radius: 10px 10px 0 0;
+  padding: 28px 32px;
+  background: linear-gradient(90deg,#3b5cff,#5f45d9);
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(20,30,80,0.08);
+}
+
+.headerInner {
+  max-width: 100%;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: rgba(255,255,255,0.92);
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,35 @@
+/* src/components/Milestones.module.css */
+.grid {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+
+.card {
+  background: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(16, 24, 40, 0.04);
+  min-height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mTitle {
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.mDate {
+  color: #6b6f82;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.mDesc {
+  color: #8b92a6;
+  font-size: 12px;
+}

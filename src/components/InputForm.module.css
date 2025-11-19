@@ -1,0 +1,89 @@
+/* src/components/InputForm.module.css */
+.formWrap {
+  padding: 20px 22px;
+  background: transparent;
+}
+
+.row {
+  display: flex;
+  gap: 18px;
+  align-items: flex-end;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.field {
+  flex: 1;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 13px;
+  color: #5b6175;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.field input, .field select {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #e8e9ef;
+  background: #fff;
+  font-size: 15px;
+  outline: none;
+  box-shadow: 0 6px 18px rgba(16,24,40,0.03);
+}
+
+.field select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #999 50%),
+                    linear-gradient(135deg, #999 50%, transparent 50%);
+  background-position: calc(100% - 18px) calc(1em + 2px), calc(100% - 13px) calc(1em + 2px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+  padding-right: 34px;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.calc {
+  flex: 1;
+  background: linear-gradient(90deg,#3b5cff,#5f45d9);
+  color: white;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 2px solid rgba(10,20,80,0.12);
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 10px 26px rgba(59,92,255,0.12);
+}
+
+.calc:active {
+  transform: translateY(1px);
+}
+
+.reset {
+  flex-basis: 220px;
+  background: #f5f7fb;
+  border: 1px solid #e8e9ef;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333;
+  text-align: center;
+}
+.eye { opacity: 0.95; }
